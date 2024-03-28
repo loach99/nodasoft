@@ -1,8 +1,12 @@
 .section_cards {
     background-color: #88B5BF;
     padding: 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 100px;
 }
 

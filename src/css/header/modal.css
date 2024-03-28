@@ -1,5 +1,6 @@
-
 .modal {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
@@ -16,6 +17,8 @@
 .modal:target {
     opacity: 1;
     visibility: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     pointer-events: auto;
 }
@@ -35,9 +38,15 @@
 .modal_text-wrap {
     text-align: center;
     height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .modal_text-wrap>p {
