@@ -1,0 +1,17 @@
+.section_cards {
+    background-color: #88B5BF;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: #0D89B0;
+    width: 25%;
+    height: 16.5vw;
+}
+
+.card:not(:last-child) {
+    margin-right: 2vw;
+}
